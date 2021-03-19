@@ -1,6 +1,6 @@
 import requests
 
-class IEXStock:
+class Company:
 
     def __init__(self, token, symbol, environment='production'):
         if environment == 'production':
